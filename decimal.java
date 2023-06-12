@@ -17,7 +17,7 @@ public class decimal {
         Object test = (String) test1.toString();
 
         Object flag = map.get("test");
-
+        String h4 =  flag.toString();
         if(flag == null) {
             System.out.println("null");
         } else {
