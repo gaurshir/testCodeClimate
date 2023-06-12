@@ -12,7 +12,7 @@ public class decimal {
     public static void main(String args[]) {
 
         Map<String, Object> map =  new HashMap<>();
-        map.put("test", true);
+        map1.put("test", true);
         Object test1 = "true";
         Object test = (String) test1.toString();
 
