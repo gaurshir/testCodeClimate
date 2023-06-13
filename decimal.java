@@ -27,6 +27,17 @@ public class decimal {
         }
 
         System.out.print(test);
+        
+        
+        if(flag == null) {
+            System.out.println("null");
+        } else {
+            String h =  flag.toString();
+            System.out.println(flag.toString());
+
+        }
+
+        System.out.print(test);
 
       }
 
