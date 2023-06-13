@@ -10,8 +10,10 @@ public class decimal {
 
 
     public static void main(String args[]) {
-
-        Map<String, Object> map =  new HashMap<>();
+        
+        
+        
+         Map<String, Object> map =  new HashMap<>();
         map1.put("test", true);
         Object test1 = "true";
         Object test = (String) test1.toString();
@@ -39,6 +41,35 @@ public class decimal {
 
         System.out.print(test);
 
-      }
+        /*
+        Map<String, Object> map =  new HashMap<>();
+        map1.put("test", true);
+        Object test1 = "true";
+        Object test = (String) test1.toString();
+
+        Object flag = map.get("test1");
+        String h4 =  flag.toString();
+        if(flag == null) {
+            System.out.println("null");
+        } else {
+            String h =  flag.toString();
+            System.out.println(flag.toString());
+
+        }
+
+        System.out.print(test);
+        
+        
+        if(flag == null) {
+            System.out.println("null");
+        } else {
+            String h =  flag.toString();
+            System.out.println(flag.toString());
+
+        }
+
+        System.out.print(test);
+*/
+      } 
 
 }
