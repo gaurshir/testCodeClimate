@@ -11,7 +11,9 @@ public class decimal {
 
     public static void main(String args[]) {
         
-        
+         System.out.println("null");
+         System.out.println("null");
+         System.out.println("null");
         
          Map<String, Object> map =  new HashMap<>();
         map1.put("test", true);
